@@ -1042,6 +1042,8 @@ declare namespace gapi.client {
             }): Request<File>;
             /** Creates a new file. */
             create(request: {
+                /** Resource Object parameter for folder Metadata*/
+                resource?: any;
                 /** Data format for the response. */
                 alt?: string;
                 /** Selector specifying which fields to include in a partial response. */
